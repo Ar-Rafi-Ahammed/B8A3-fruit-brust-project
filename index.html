@@ -180,19 +180,37 @@
          shadow-xl hidden pb-2">
         <div>
           <img src="./images/fruit1.png" alt="">
+          <div class="text-center" >
+            <p>Grapes</p>
+          </div>
         </div>
         <div>
           <img src="./images/fruit2.png" alt="">
+          <div class="text-center" >
+            <p>Orange</p>
+          </div>
         </div>
         <div>
           <img src="./images/fruit3.png" alt="">
+          <div class="text-center" >
+            <p>Mango</p>
+          </div>
         </div>
         <div>
           <img src="./images/fruit4.png" alt="">
+          <div class="text-center" >
+            <p>Strawberry</p>
+          </div>
         </div>
         <div>
           <img src="./images/fruit5.png" alt="">
+          <div class="text-center" >
+            <p>Bedana</p>
+          </div>
         </div>
+
+
+        
 
       </div>
     </section>
@@ -206,12 +224,28 @@
 
     <section class=" mx-auto w-[80%] lg:mt-32 mb-20 ">
       <div class="lg:flex justify-between text-center lg:text-left">
-        <div class="">
-          <h3 class="lg:text-4xl text-3xl font-black pb-3">Deal of the day</h3>
+        <div class="relative">
+          <div>
+            <h3 class="lg:text-4xl text-3xl font-black pb-3">Deal of the day</h3>
           <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin
             literature
             from 45 BC, making it over 2000 years old.</p>
+          </div>
+              <div class="absolute top-16 left-28 lg:hidden md:hidden">
+                <button
+                class="btn text-white text-base font-black bg-[#F85559] border-none rounded-xl hover:text-black opacity-80">Shop
+                Now</button>
+              </div>
+
         </div>
+
+            <!-- shop now button -->
+            <!-- <button
+            class="btn text-white text-base font-black bg-[#F85559] border-none rounded-xl hover:text-black">Shop
+            Now</button> -->
+          
+
+
 
         <div class="grid grid-cols-4 lg:mt-0 mt-12">
 
@@ -243,14 +277,6 @@
       </div>
 
     </section>
-
-
-
-
-
-
-
-
 
 
 
@@ -321,6 +347,7 @@
       </div>
 
       <!-- card two -->
+
 
       <div class="">
         <div class="card  bg-base-100 shadow-xl">
@@ -511,7 +538,7 @@
 
     <!-- meet the team section -->
 
-    <section class="pt-16">
+    <section class="pt-16 lg:flex hidden">
       <div class="mx-auto w-[80%] relative ">
         <div class="">
           <img src="./images/team.png" alt="">
@@ -602,7 +629,7 @@
             <br> Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
 
-        <div class=" grid grid-cols-3 mt-8 mr-4 gap-6">
+        <div class=" grid lg:grid-cols-3 grid-cols-1 mt-8 mr-4 gap-6">
 
          <div class=" ">
           <div class="flex gap-4">
@@ -611,6 +638,17 @@
             </div>
             <div>
               <h4 class="text-lg font-black">Dedicated Team</h4>
+              <hr class="w-[50%] ">
+              <p class="text-sm">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 mt-4">
+            <div class="p-8 rounded-full bg-gray-200">
+              <i class="fa-solid fa-people-group" style="color: #77797e;"></i>
+            </div>
+            <div>
+              <h4 class="text-lg font-black">Fresh is Best</h4>
               <hr class="w-[50%]">
               <p class="text-sm">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
@@ -621,18 +659,7 @@
               <i class="fa-solid fa-people-group" style="color: #77797e;"></i>
             </div>
             <div>
-              <h4 class="text-lg font-black">Dedicated Team</h4>
-              <hr class="w-[50%]">
-              <p class="text-sm">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-            </div>
-          </div>
-
-          <div class="flex gap-4 mt-4">
-            <div class="p-8 rounded-full bg-gray-200">
-              <i class="fa-solid fa-people-group" style="color: #77797e;"></i>
-            </div>
-            <div>
-              <h4 class="text-lg font-black">Dedicated Team</h4>
+              <h4 class="text-lg font-black">Gift Certificates</h4>
               <hr class="w-[50%]">
               <p class="text-sm">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
@@ -650,38 +677,54 @@
 
               
             <div class=" ">
-              <div class="flex gap-4">
-                <div class="p-8 rounded-full bg-gray-200">
-                  <i class="fa-solid fa-people-group" style="color: #77797e;"></i>
+             
+
+                <div class="flex gap-4">
+                  <div class="text-right">
+                    <h4 class="text-lg font-black">Integrated Supplier</h4>
+                    <hr class="w-[50%]">
+                    <p class="text-sm">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  </div>
+  
+                  <div class="flex gap-4">
+                    <div class="p-8 rounded-full bg-gray-200">
+                      <i class="fa-solid fa-people-group" style="color: #77797e;"></i>
+                    </div>
                 </div>
-                <div>
-                  <h4 class="text-lg font-black">Dedicated Team</h4>
-                  <hr class="w-[50%]">
-                  <p class="text-sm">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div>
-              </div>
+
+
+
+                <div class="flex gap-4 mt-4">
+                  <div class="text-right">
+                    <h4 class="text-lg font-black">Integrated Supplier</h4>
+                    <hr class="w-[50%]">
+                    <p class="text-sm">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  </div>
+  
+                  <div class="flex gap-4 ">
+                    <div class="p-8 rounded-full bg-gray-200">
+                      <i class="fa-solid fa-people-group" style="color: #77797e;"></i>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="flex gap-4 mt-4">
+                  <div class="text-right">
+                    <h4 class="text-lg font-black">Integrated Supplier</h4>
+                    <hr class="w-[50%]">
+                    <p class="text-sm">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  </div>
+  
+                  <div class="flex gap-4">
+                    <div class="p-8 rounded-full bg-gray-200">
+                      <i class="fa-solid fa-people-group" style="color: #77797e;"></i>
+                    </div>
+                </div>
+                </div>
     
-              <div class="flex gap-4 mt-4">
-                <div class="p-8 rounded-full bg-gray-200">
-                  <i class="fa-solid fa-people-group" style="color: #77797e;"></i>
-                </div>
-                <div>
-                  <h4 class="text-lg font-black">Dedicated Team</h4>
-                  <hr class="w-[50%]">
-                  <p class="text-sm">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                </div>
-              </div>
-    
-              <div class="flex gap-4 mt-4">
-                <div class="p-8 rounded-full bg-gray-200">
-                  <i class="fa-solid fa-people-group" style="color: #77797e;"></i>
-                </div>
-                <div>
-                  <h4 class="text-lg font-black">Dedicated Team</h4>
-                  <hr class="w-[50%]">
-                  <p class="text-sm">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                </div>
-              </div>
+              
              </div>
     
 
@@ -694,7 +737,43 @@
 
   </main>
 
-  <footer></footer>
+  
+
+    <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded mt-12 text-white bg-black ">
+
+      <div>
+        <div class="flex items-center gap-4">
+          <img src="./images/logo.png" alt="">
+          <h1 class="text-[200%] font-black">Fruit Burst</h1>
+        </div>
+      </div>
+
+      <div class="grid grid-flow-col gap-4">
+        <a class="link link-hover">Home</a> 
+        <a class="link link-hover">About Us</a> 
+        <a class="link link-hover">Shop</a> 
+        <a class="link link-hover">All fruit</a> 
+        <a class="link link-hover">Support</a> 
+        <a class="link link-hover">My Account</a>
+      </div> 
+      <div>
+        <div class="grid grid-flow-col gap-4">
+          
+
+          <a href="#"><i class="fa-brands fa-twitter" style="color: #ebecf0;"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook" style="color: #f0f2f4;"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube" style="color: #db0606;"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram" style="color: #dbdfe6;"></i></a>
+          <a href="#"><i class="fa-brands fa-apple" style="color: #fafcff;"></i></a>
+          
+
+        </div>
+      </div> 
+      
+    </footer>
+        
+
 </body>
 
 
